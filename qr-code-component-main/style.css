@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit',sans-serif;
+    background-color: lightgrey;
+}
+.container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+
+}
+.container img{
+    width: 100%;
+    border-radius: 15px;
+}
+.container h2{
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.container p{
+    font-weight: 400;
+    margin: 0 22px;
+}
